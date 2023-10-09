@@ -1,7 +1,5 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
-  // 3.14.1以后的版本中，欢迎语在blog.config.js中配置，用英文逗号','隔开多个。
-  NEXT_PUBLIC_GREETING_WORDS: ['Hi，我是房产中介', 'Hi，我是日本房产中介', 'Hi，我是为华人投资日本房产的中介', '欢迎咨询日本房产信息🎉'], // 首页大图标语文字
 
   HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
   HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂； false则随鼠标滚动
