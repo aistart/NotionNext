@@ -24,7 +24,7 @@ const BlogPostListPage = ({ page = 1, posts = [], postCount, siteInfo }) => {
         <div className="pt-4 flex flex-wrap pb-12" >
           {posts?.map(post => (
             // 原来className='xl:w-1/3 md:w-1/2 w-full p-4'> 会造成在宽屏幕pcweb显示一个card的时候宽度变窄。
-           <div key={post.id} className='xl:w-1/2 md:w-1/2 w-full p-4'> <BlogPostCard index={posts.indexOf(post)} post={post} siteInfo={siteInfo} /></div>
+           <div key={post.id} className="posts.length === 1 ? 'max-w-500px w-full p-4' : 'xl:w-1/3 md:w-1/2 w-full p-4' "> <BlogPostCard index={posts.indexOf(post)} post={post} siteInfo={siteInfo} /></div>
           ))}
         </div>
         {showPagination && <PaginationSimple page={page} totalPage={totalPage} />}
