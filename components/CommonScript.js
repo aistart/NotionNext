@@ -20,9 +20,8 @@ const CommonScript = () => {
     </>)}
 
     {BLOG.EMBEDAI_ID && (<>
-        <script id="embedai"  data-id={BLOG.EMBEDAI_ID} src="https://embedai.thesamur.ai/embedai.js"></script>
+        <script id="embedai" data-id={BLOG.EMBEDAI_ID} src="https://embedai.thesamur.ai/embedai.js" async></script>
     </>)}
-
 
     {BLOG.COMMENT_DAO_VOICE_ID && (<>
       {/* DaoVoice 反馈 */}
