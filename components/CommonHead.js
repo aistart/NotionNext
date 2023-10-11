@@ -66,7 +66,6 @@ const CommonHead = ({ meta, children }) => {
                 </>
             )}
             {children}
-            <script id="embedai" src="https://embedai.thesamur.ai/embedai.js" data-id="testdata"></script>
         </Head>
   )
 }

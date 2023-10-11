@@ -19,6 +19,11 @@ const CommonScript = () => {
         }}/>
     </>)}
 
+    {BLOG.EMBEDAI_ID && (<>
+        <script id="embedai"  data-id={BLOG.EMBEDAI_ID} src="https://embedai.thesamur.ai/embedai.js"></script>
+    </>)}
+
+
     {BLOG.COMMENT_DAO_VOICE_ID && (<>
       {/* DaoVoice 反馈 */}
       <script async dangerouslySetInnerHTML={{
