@@ -179,9 +179,10 @@ const BLOG = {
   STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || false, // 开关
 
   //   ********挂件组件相关********
+  // 为安全起见，process.env变量设置在Vercel等部署服务器上。
 
   // embedai 是否显示embedai机器人 https://embedai.thesamur.ai
-  EMBEDAI_ID:process.env.NEXT_PUBLIC_EMBEDAI_ID || 'testdata',
+  EMBEDAI_ID:process.env.NEXT_PUBLIC_EMBEDAI_ID || null,
   
     // Chatbase 是否显示chatbase机器人 https://www.chatbase.co/
   CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || null,
