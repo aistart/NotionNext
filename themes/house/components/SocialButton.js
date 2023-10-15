@@ -49,7 +49,7 @@ const SocialButton = () => {
                 <i className='fab fa-youtube transform hover:scale-125 duration-150'/>
             </a>}
             <div style={{ margin: '30px 0' }}>
-            <i onClick={toggleShow} className='transform hover:scale-125 duration-150 fas fa-close' style={`margin: '30px 0'`} />
+            <i onClick={toggleShow} className='transform hover:scale-125 duration-150 fas fa-close' />
             </div>
         </>}
     </div>
