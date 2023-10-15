@@ -14,6 +14,6 @@ export default function RightFloatButtons(props) {
         <JumpToTopButton />
         <SocialButton />
         {/* 可扩展的右下角悬浮 */}
-       {/* {floatRightBottom} */}
+        {floatRightBottom}
     </div>
 }
