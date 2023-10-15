@@ -27,6 +27,9 @@ const SocialButton = () => {
             {BLOG.CONTACT_LINKEDIN && <a target='_blank' rel='noreferrer' href={BLOG.CONTACT_LINKEDIN} title={'linkIn'} >
                 <i className='transform hover:scale-125 duration-150 fab fa-linkedin ' />
             </a>}
+            {BLOG.CONTACT_WEIXIN_E && <a target='_blank' rel='noreferrer' title={'企业微信'} href={BLOG.CONTACT_WEIXIN_E} >
+                <i className='transform hover:scale-125 duration-150 fab fa-weibo ' />
+            </a>}
             {BLOG.CONTACT_WEIBO && <a target='_blank' rel='noreferrer' title={'weibo'} href={BLOG.CONTACT_WEIBO} >
                 <i className='transform hover:scale-125 duration-150 fab fa-weibo ' />
             </a>}
