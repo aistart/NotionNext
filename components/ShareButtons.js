@@ -344,7 +344,7 @@ const ShareButtons = ({ shareUrl, title, body, image }) => {
         if (singleService === 'qrcode') {
           return <button onMouseEnter={openPopover} onMouseLeave={closePopover} aria-label={singleService} key={singleService} className='cursor-pointer bg-green-600 text-white rounded-full mx-1'>
             <div id='wechat-button'>
-              <i className='fab fa-qrcode w-8' />
+              <i className='fa fa-qrcode w-8' />
             </div>
             <div className='absolute'>
               <div id='pop' className={(qrCodeShow ? 'opacity-100 ' : ' invisible opacity-0') + ' z-40 absolute bottom-10 -left-10 bg-white shadow-xl transition-all duration-200 text-center'}>
