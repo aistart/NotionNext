@@ -359,7 +359,7 @@ const ShareButtons = ({ shareUrl, title, body, image }) => {
           </button>
         }
         if (singleService === 'wechat') {
-          return <button key={singleService} className='cursor-pointer bg-blue-600 text-white rounded-full mx-1'>
+          return <button key={singleService} className='cursor-pointer bg-green-600 text-white rounded-full mx-1'>
             <a target='_blank' rel='noreferrer' href={'https://work.weixin.qq.com/kfid/kfcb8f0c45497ca5b6a'} >
               <i className='fab fa-weixin w-8' />
             </a>
