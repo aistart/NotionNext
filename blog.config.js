@@ -13,11 +13,11 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || '投资日本房产正当时, 欢迎咨询投资日本房产事宜, 🎉アルファ未来株式会社',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || '投资日本房产正当时, 欢迎咨询投资日本房产事宜, 🎉阿尔法未来株式会社',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'アルファ未来株式会社', // 您的昵称 例如 tangly1024github
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '阿尔法未来株式会社', // 您的昵称 例如 tangly1024github
   BIO: process.env.NEXT_PUBLIC_BIO || '华人投资日本房产的首选顾问', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://amirai.daoo.tech', // 网站地址about
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '日本房产, 房产投资, 置业顾问, 房产中介', // 网站关键词 英文逗号隔开
