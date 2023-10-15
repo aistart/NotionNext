@@ -48,7 +48,7 @@ const SocialButton = () => {
             {BLOG.CONTACT_YOUTUBE && <a target='_blank' rel='noreferrer' title={'youtube'} href={BLOG.CONTACT_YOUTUBE} >
                 <i className='fab fa-youtube transform hover:scale-125 duration-150'/>
             </a>}
-            <div style={{ margin: '30px 0' }}>
+            <div style={{ margin: '10px 0 0 0' }}>
             <i onClick={toggleShow} className='transform hover:scale-125 duration-150 fas fa-close' />
             </div>
         </>}
