@@ -17,10 +17,10 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '阿尔法未来株式会社', // 您的昵称 例如 tangly1024github
-  BIO: process.env.NEXT_PUBLIC_BIO || '华人投资日本房产的首选顾问', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://amirai.daoo.tech', // 网站地址about
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '日本房产, 房产投资, 置业顾问, 房产中介', // 网站关键词 英文逗号隔开
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '', // 您的昵称 例如 tangly1024github
+  BIO: process.env.NEXT_PUBLIC_BIO || '', // 作者简介
+  LINK: process.env.NEXT_PUBLIC_LINK || '', // 网站地址about
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_WEIXIN_E: process.env.NEXT_PUBLIC_CONTACT_WEIXIN_E || 'https://work.weixin.qq.com/kfid/kfcb8f0c45497ca5b6a', // 企业微信客服链接，文档参考：https://work.weixin.qq.com/nl/act/p/4030a5b69149404d
@@ -36,7 +36,7 @@ const BLOG = {
 
   NOTION_HOST: process.env.NEXT_PUBLIC_NOTION_HOST || 'https://www.notion.so', // Notion域名，您可以选择用自己的域名进行反向代理，如果不懂得什么是反向代理，请勿修改此项
 
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/48home.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
 
   // START ************网站字体*****************
 
