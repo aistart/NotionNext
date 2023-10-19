@@ -23,7 +23,7 @@ const BLOG = {
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_WEIXIN_E: process.env.NEXT_PUBLIC_CONTACT_WEIXIN_E || 'https://work.weixin.qq.com/kfid/kfcb8f0c45497ca5b6a', // 企业微信客服链接，文档参考：https://work.weixin.qq.com/nl/act/p/4030a5b69149404d
+  CONTACT_WEIXIN_E: process.env.NEXT_PUBLIC_CONTACT_WEIXIN_E || 'https://work.weixin.qq.com/kfid/kfc26c4846724e0a0a9', // 企业微信客服链接，文档参考：https://work.weixin.qq.com/nl/act/p/4030a5b69149404d
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || '', // 你的twitter个人主页
